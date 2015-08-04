@@ -1,0 +1,7 @@
+C:\Users\Apprentice\Desktop\GitHub\KileyDowling\Samples\CodingKatas\CodingKatas\obj\Debug\CodingKatas.csprojResolveAssemblyReference.cache
+C:\Users\Apprentice\Desktop\GitHub\KileyDowling\Samples\CodingKatas\CodingKatas\bin\Debug\CodingKatas.dll
+C:\Users\Apprentice\Desktop\GitHub\KileyDowling\Samples\CodingKatas\CodingKatas\bin\Debug\CodingKatas.pdb
+C:\Users\Apprentice\Desktop\GitHub\KileyDowling\Samples\CodingKatas\CodingKatas\bin\Debug\KataChallenges.dll
+C:\Users\Apprentice\Desktop\GitHub\KileyDowling\Samples\CodingKatas\CodingKatas\bin\Debug\KataChallenges.pdb
+C:\Users\Apprentice\Desktop\GitHub\KileyDowling\Samples\CodingKatas\CodingKatas\obj\Debug\CodingKatas.dll
+C:\Users\Apprentice\Desktop\GitHub\KileyDowling\Samples\CodingKatas\CodingKatas\obj\Debug\CodingKatas.pdb
