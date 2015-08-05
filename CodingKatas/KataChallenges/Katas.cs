@@ -68,5 +68,41 @@ namespace KataChallenges
             return newString;
 
         }
+
+        public static string OddLadder(int n)
+        {
+            //You have to write a function pattern which creates the following pattern (see examples) up to the desired number of rows.
+            //If the Argument is 0 or a Negative Integer then it should return "" i.e. empty string.
+            //If any even number is passed as argument then the pattern should last upto the largest odd number which is smaller than the passed even number.
+            int counter = 0;
+            int num = 0;
+            string result = "";
+
+            if(n <= 0)
+                return result;
+
+            while (counter < n)
+            {
+                while (num >= counter)
+                {
+                    result += (counter+1).ToString();
+                    num --;
+                }
+                
+                counter+=2;
+                num =counter*2;
+
+                if  ((counter != n) && counter != n + 1)
+                {
+                    result += "\n";
+
+                }
+            }
+
+            return result;
+
+            
+
+        }
     }
 }

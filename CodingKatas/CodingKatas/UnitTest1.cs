@@ -33,5 +33,14 @@ namespace CodingKatas
         {
             Assert.AreEqual("cODEwARS", Katas.Swap("CodeWars"));
         }
+
+        [TestMethod]
+        public void OddLadder()
+        {
+            Assert.AreEqual("1\n333\n55555\n7777777\n999999999", Katas.OddLadder(9));
+            Assert.AreEqual("1\n333", Katas.OddLadder(4));
+        }
+
+
     }
 }
