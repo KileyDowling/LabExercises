@@ -41,6 +41,11 @@ namespace CodingKatas
             Assert.AreEqual("1\n333", Katas.OddLadder(4));
         }
 
-
+        [TestMethod]
+        public void GetMissingElement()
+        {
+            Assert.AreEqual(8, Katas.GetMissingElement(new int[] { 0, 5, 1, 3, 2, 9, 7, 6, 4 }));
+            Assert.AreEqual(3, Katas.GetMissingElement(new int[] { 9, 2, 4, 5, 7, 0, 8, 6, 1}));
+        }
     }
 }

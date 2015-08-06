@@ -104,5 +104,62 @@ namespace KataChallenges
             
 
         }
+
+        public static int GetMissingElement(int[] superImportantArray)
+        {
+            //  Our array, superImportantArray, was supposed to contain all of the integers from 0 to 9 (in no particular order), but one of them seems to be missing.
+
+            //Write a function called getMissingElement that accepts an array of unique integers between 0 and 9 (inclusive), and returns the missing element.
+
+            //Examples:
+
+            //Kata.GetMissingElement( [0, 5, 1, 3, 2, 9, 7, 6, 4] ); // returns 8
+            //Kata.GetMissingElement( [9, 2, 4, 5, 7, 0, 8, 6, 1] ); // returns 3
+
+
+
+            //go through each number in array. check if it equal
+
+            int[] num0to9 = new int[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+            var foundNum = -1;
+
+            foreach (var i in num0to9)
+            {
+                if (!superImportantArray.Contains(i))
+                {
+                    foundNum = i;
+                }
+
+            }
+            return foundNum;
+        }
+
+        public static string MakeBackronym(string s)
+        {
+           Dictionary<char,string> dict = new Dictionary<char, string>();
+           dict.Add('A', "awesome");
+           dict.Add('B', "boy");
+           dict.Add('C', "awesome");
+
+
+
+            return dict['A']; // "awesome"
+
+                //            Definition-
+
+                //back·ro·nym
+
+                //noun
+
+                //a fanciful expansion of an existing acronym or word, such as “port out, starboard home” for posh.
+
+                //You will create a function called makeBackronym . There will be a preloaded dictionary to use. The dictionary is an object where the the keys are letters A-Z and the values are a predetermined word.
+
+                //Use the variable name (its name is written in the code template) to reference the uppercase letters of the dictionary.
+
+                //EXAMPLE:
+
+                //dict['P']=="perfect"
+                       }
     }
 }
