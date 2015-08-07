@@ -100,9 +100,6 @@ namespace KataChallenges
             }
 
             return result;
-
-            
-
         }
 
         public static int GetMissingElement(int[] superImportantArray)
@@ -115,8 +112,6 @@ namespace KataChallenges
 
             //Kata.GetMissingElement( [0, 5, 1, 3, 2, 9, 7, 6, 4] ); // returns 8
             //Kata.GetMissingElement( [9, 2, 4, 5, 7, 0, 8, 6, 1] ); // returns 3
-
-
 
             //go through each number in array. check if it equal
 
@@ -140,8 +135,6 @@ namespace KataChallenges
            dict.Add('A', "awesome");
            dict.Add('B', "boy");
            dict.Add('C', "awesome");
-
-
 
             return dict['A']; // "awesome"
 
